@@ -1,0 +1,14 @@
+---
+- name: Testing
+  hosts: test
+  become: yes
+  tasks:
+
+    - name: Do ping
+      ping:
+      register: result
+
+
+    - name: Do debug
+      debug:
+        msg: "The result is {{ result.ping }}"
