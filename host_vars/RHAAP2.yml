@@ -1,4 +1,4 @@
 ---
-CONTENT: "Helo, I'm happy"
+CONTENT: "Helo, I'm happy\n"
 DIRECTORY: /tmp
 FILE: test.txt
