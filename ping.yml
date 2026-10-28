@@ -1,6 +1,6 @@
 ---
 - name: Testing
-  hosts: test
+  hosts: "{{ machine }}"
   become: yes
   tasks:
 
