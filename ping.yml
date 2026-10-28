@@ -7,4 +7,4 @@
 
     - name: Testing debug
       ansible.builtin.debug:
-        msg: "This is the server {{ hostvars[RHAAP2]['CONTENT'] }}"
+        msg: "This is the server {{ hostvars['RHAAP2']['CONTENT'] }}"
