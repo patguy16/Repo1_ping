@@ -1,4 +1,4 @@
 ---
-CONTENT: "Helo, I'm happy"
-DIRECTORY: /tmp
-FILE: test.txt
+#CONTENT: "Helo, I'm happy"
+#DIRECTORY: /tmp
+#FILE: test.txt
