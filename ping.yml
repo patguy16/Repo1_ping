@@ -1,15 +1,10 @@
 ---
 - name: Testing
-  hosts: "{{ machine }}"
+  hosts: localhost
   become: yes
   gather_facts: false
   tasks:
 
-    - name: Do ping
-      ping:
-      register: result
-
-
-    - name: Do debug
-      debug:
-        msg: "The result is {{ result.ping }}"
+    - name: Testing debug
+      ansible.builtin.debug:
+        msg: "This is the server {{ hostvars[RHAAP]['content'] }}"
