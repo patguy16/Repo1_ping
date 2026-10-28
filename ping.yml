@@ -2,6 +2,7 @@
 - name: Testing
   hosts: "{{ machine }}"
   become: yes
+  gather_facts: false
   tasks:
 
     - name: Do ping
